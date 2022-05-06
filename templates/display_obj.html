@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<body>
+<img src ="data:image/png;base64, {{ userInput }}" alt = "Bar placeholder">
+
+{% if abb %}
+<br>
+Abbreviation to Condition: <br>
+{% for label in abb %}
+<p>- {{label}}</p>
+{% endfor %}
+{% endif %}
+</body>
+</html>

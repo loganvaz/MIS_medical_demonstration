@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<body>
+{%for box in boxes %}
+	{{box}}
+
+</body>
+</html>

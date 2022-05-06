@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<body>
+<h1>Checklist of Symptoms</h1>
+<form method = "POST" action = "results">
+{%for box in boxes %}
+	<label for = {{box}}> </label>
+	<input type = "checkbox" id = {{box}} name = {{box}}>{{box}}<br>
+{%endfor%}
+<input type="submit" id = "submit">
+
+</form>
+</body>
+</html>
